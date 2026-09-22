@@ -1,0 +1,37 @@
+# =========================
+# Python
+# =========================
+
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+Backend/.env
+frontend/.env
+
+# =========================
+# Generated files
+# =========================
+
+Backend/uploads/*
+Backend/audio/*
+*.wav
+
+# Keep folders in Git
+!Backend/uploads/.gitkeep
+!Backend/audio/.gitkeep
+
+# =========================
+# Frontend
+# =========================
+
+frontend/node_modules/
+frontend/dist/
+
+# =========================
+# IDE
+# =========================
+
+.vscode/
